@@ -12,6 +12,10 @@ export function RootRouterWrap() {
 
   const routes: RouteObject[] = [
     {
+      path: '/',
+      element: <WelcomePage />,
+    },
+    {
       path: '/welcome',
       element: <WelcomePage />,
     },
