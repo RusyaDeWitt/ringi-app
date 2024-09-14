@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import { Box, Grid, GridItem, VStack, Text, Button, HStack, Center } from '@chakra-ui/react';
+import { Box, Grid, GridItem, VStack, Text, Button, HStack } from '@chakra-ui/react';
 import { SearchInput } from './libs';
-import { vacancies } from '../../store/vacancies';
-import { VacancyCard } from '../../components/VacancyCard';
+import { vacancies } from 'store/vacancies';
+import { VacancyCard } from 'components/VacancyCard';
 import { LocationFilter, SalaryFilter, CategoryFilter } from './libs/Filters/';
 
 export default function ClientJobsList() {

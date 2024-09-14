@@ -10,8 +10,8 @@ import {
   Center,
 } from '@chakra-ui/react';
 import { StatsCard } from './libs/StatsCard';
-import { vacancies } from '../../store/vacancies';
-import { VacancyCard } from '../../components/VacancyCard';
+import { vacancies } from 'store/vacancies';
+import { VacancyCard } from 'components/VacancyCard';
 
 export default function Dashboard() {
   return (

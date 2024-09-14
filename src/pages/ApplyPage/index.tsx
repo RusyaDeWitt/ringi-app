@@ -1,6 +1,6 @@
 import { useNavigate, useParams } from 'react-router-dom';
 import { Box, Button, Flex, Text, VStack } from '@chakra-ui/react';
-import { vacancies } from '../../store/vacancies';
+import { vacancies } from 'store/vacancies';
 import { ArrowBackIcon } from '@chakra-ui/icons';
 import { ApplyForm } from './libs/ApplyForm';
 

@@ -1,5 +1,5 @@
 import { Box, Button, Flex, Text } from '@chakra-ui/react';
-import { Vacancy } from '../../store/vacancies/types';
+import { Vacancy } from 'store/vacancies/types';
 import { useState } from 'react';
 import { ArrowRightIcon, EditIcon } from '@chakra-ui/icons';
 import { useNavigate } from 'react-router-dom';
