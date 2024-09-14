@@ -2,6 +2,7 @@ import { Vacancy } from './types';
 
 export const vacancies: Vacancy[] = [
   {
+    id: 1,
     title: 'Frontend Developer',
     location: 'New York, NY',
     description:
@@ -11,6 +12,7 @@ export const vacancies: Vacancy[] = [
     companyName: 'Tech Innovations Inc.',
   },
   {
+    id: 2,
     title: 'Marketing Specialist',
     location: 'San Francisco, CA',
     description:
@@ -20,6 +22,7 @@ export const vacancies: Vacancy[] = [
     companyName: 'BrandBoost Ltd.',
   },
   {
+    id: 3,
     title: 'Data Scientist',
     location: 'Remote',
     description:
@@ -29,6 +32,7 @@ export const vacancies: Vacancy[] = [
     companyName: 'DataX Solutions',
   },
   {
+    id: 4,
     title: 'Chef de Partie',
     location: 'Miami, FL',
     description:
@@ -38,6 +42,7 @@ export const vacancies: Vacancy[] = [
     companyName: 'Gourmet Paradise',
   },
   {
+    id: 5,
     title: 'Registered Nurse',
     location: 'Chicago, IL',
     description:
@@ -47,6 +52,7 @@ export const vacancies: Vacancy[] = [
     companyName: 'Chicago General Hospital',
   },
   {
+    id: 6,
     title: 'Accountant',
     location: 'Atlanta, GA',
     description:
@@ -56,6 +62,7 @@ export const vacancies: Vacancy[] = [
     companyName: 'Finance Experts LLC',
   },
   {
+    id: 7,
     title: 'Construction Site Manager',
     location: 'Dallas, TX',
     description:
@@ -65,6 +72,7 @@ export const vacancies: Vacancy[] = [
     companyName: 'BuildTech Construction',
   },
   {
+    id: 8,
     title: 'Sous Chef',
     location: 'Los Angeles, CA',
     description:
@@ -74,6 +82,7 @@ export const vacancies: Vacancy[] = [
     companyName: 'Taste of LA',
   },
   {
+    id: 9,
     title: 'Pharmacist',
     location: 'Houston, TX',
     description:
@@ -83,6 +92,7 @@ export const vacancies: Vacancy[] = [
     companyName: 'HealthFirst Pharmacy',
   },
   {
+    id: 10,
     title: 'Project Accountant',
     location: 'Denver, CO',
     description:
@@ -92,6 +102,7 @@ export const vacancies: Vacancy[] = [
     companyName: 'BuildFinance Solutions',
   },
   {
+    id: 11,
     title: 'Full Stack Developer',
     location: 'Seattle, WA',
     description:
@@ -101,6 +112,7 @@ export const vacancies: Vacancy[] = [
     companyName: 'NextGen Tech',
   },
   {
+    id: 12,
     title: 'Restaurant Manager',
     location: 'Boston, MA',
     description:
@@ -110,6 +122,7 @@ export const vacancies: Vacancy[] = [
     companyName: 'Gourmet Delights',
   },
   {
+    id: 13,
     title: 'Clinical Research Coordinator',
     location: 'Philadelphia, PA',
     description:
@@ -119,6 +132,7 @@ export const vacancies: Vacancy[] = [
     companyName: 'Health Research Institute',
   },
   {
+    id: 14,
     title: 'Certified Public Accountant (CPA)',
     location: 'Miami, FL',
     description:
@@ -128,6 +142,7 @@ export const vacancies: Vacancy[] = [
     companyName: 'FinancePro Solutions',
   },
   {
+    id: 15,
     title: 'Construction Project Supervisor',
     location: 'Las Vegas, NV',
     description:
@@ -137,6 +152,7 @@ export const vacancies: Vacancy[] = [
     companyName: 'Skyline Builders',
   },
   {
+    id: 16,
     title: 'Social Media Strategist',
     location: 'Austin, TX',
     description:
@@ -146,6 +162,7 @@ export const vacancies: Vacancy[] = [
     companyName: 'MediaWave Solutions',
   },
   {
+    id: 17,
     title: 'Pharmacy Technician',
     location: 'Dallas, TX',
     description:
@@ -155,6 +172,7 @@ export const vacancies: Vacancy[] = [
     companyName: 'CityCare Pharmacy',
   },
   {
+    id: 18,
     title: 'Structural Engineer',
     location: 'Denver, CO',
     description:
@@ -164,6 +182,7 @@ export const vacancies: Vacancy[] = [
     companyName: 'BuildStrong Engineering',
   },
   {
+    id: 19,
     title: 'Financial Analyst',
     location: 'San Diego, CA',
     description:
@@ -173,6 +192,7 @@ export const vacancies: Vacancy[] = [
     companyName: 'ClearPath Investments',
   },
   {
+    id: 20,
     title: 'Executive Chef',
     location: 'Nashville, TN',
     description:
@@ -182,6 +202,7 @@ export const vacancies: Vacancy[] = [
     companyName: 'Taste of Nashville',
   },
   {
+    id: 21,
     title: 'JavaScript Developer',
     location: 'Remote',
     description:
@@ -191,6 +212,7 @@ export const vacancies: Vacancy[] = [
     companyName: 'DevPro Solutions',
   },
   {
+    id: 22,
     title: 'Digital Marketing Coordinator',
     location: 'Phoenix, AZ',
     description:
@@ -200,6 +222,7 @@ export const vacancies: Vacancy[] = [
     companyName: 'AdVision Marketing',
   },
   {
+    id: 23,
     title: 'Civil Engineer',
     location: 'Orlando, FL',
     description:
@@ -209,6 +232,7 @@ export const vacancies: Vacancy[] = [
     companyName: 'Urban Solutions Engineering',
   },
   {
+    id: 24,
     title: 'Medical Laboratory Technician',
     location: 'Cleveland, OH',
     description:
@@ -218,6 +242,7 @@ export const vacancies: Vacancy[] = [
     companyName: 'Cleveland Health Lab',
   },
   {
+    id: 25,
     title: 'Senior Accountant',
     location: 'Charlotte, NC',
     description:

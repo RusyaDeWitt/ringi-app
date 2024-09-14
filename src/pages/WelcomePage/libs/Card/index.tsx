@@ -10,7 +10,7 @@ export function Card({ title, img }: Props) {
 
   return (
     <Box
-      maxW="340px"
+      maxW="350px"
       h="200px"
       position="relative"
       cursor="pointer"

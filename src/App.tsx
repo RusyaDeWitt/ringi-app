@@ -5,11 +5,11 @@ import { Layout } from './layout/Layout';
 
 function App() {
   return (
-    <Layout>
-      <Router>
+    <Router>
+      <Layout>
         <RootRouterWrap />
-      </Router>
-    </Layout>
+      </Layout>
+    </Router>
   );
 }
 

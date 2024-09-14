@@ -29,7 +29,7 @@ export default function ClientJobsList() {
   const currentItems = filteredVacancies.slice((currentPage - 1) * 5, currentPage * 5);
 
   return (
-    <Box p="0 15% 0 15%">
+    <Box p={{ base: '0', lg: '0 15% 0 15%' }}>
       <Grid
         templateColumns={{ base: 'repeat(1, 1fr)', lg: '25% 1fr' }}
         gap={{ base: '0px', lg: '100px' }}
@@ -48,7 +48,7 @@ export default function ClientJobsList() {
             <SalaryFilter />
           </VStack>
         </GridItem>
-        <GridItem>
+        <GridItem mt={{ base: '30px', lg: '0px' }}>
           <SearchInput searchText={searchText} setSearchText={setSearchText} />
           <VStack mt="15px">
             {currentItems.map((vacancy, index) => {
