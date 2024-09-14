@@ -3,6 +3,7 @@ import { Vacancy } from 'store/vacancies/types';
 import { useState } from 'react';
 import { ArrowRightIcon, EditIcon } from '@chakra-ui/icons';
 import { useNavigate } from 'react-router-dom';
+import { EditModal } from 'components/VacancyCard/EditModal';
 
 type Props = {
   vacancy: Vacancy;
@@ -18,9 +19,7 @@ export function VacancyCard({ vacancy, isEdit }: Props) {
         <Flex justifyContent="space-between">
           <Text fontSize="25px">{vacancy.title}</Text>
           {isEdit ? (
-            <Button gap="10px" color="gray" bgColor="white">
-              Edit <EditIcon />
-            </Button>
+            <EditModal vacancy={vacancy} />
           ) : (
             <Button
               gap="10px"
